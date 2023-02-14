@@ -1,0 +1,171 @@
+*{
+    color: #ffff;
+}
+
+body{
+    background:#01012a;
+}
+
+.nav{
+    position: sticky;
+    z-index: 10;
+    width: 50%;   
+    margin: auto; 
+    margin-bottom: 10%;
+}
+
+.nav-link{
+    color:#ffff;
+
+}
+
+.active{   
+     border-bottom: 1px solid #fff;
+}
+
+
+#whatsnew{
+    margin-top: 10%;
+    width: 70%;
+    margin: auto;
+}
+.big{
+    font-size: 50px;
+}
+
+.big0{
+    font-size: 30px;
+}
+.section-img{
+    width: 587px;
+    height: 792px;
+    object-fit: contain;
+    padding-bottom: 10%;
+}
+.card{
+    border-radius: 5%;
+}
+.card img{
+    border-radius: 48px;
+}
+.marg{
+    margin-top: -350px;
+   
+}
+#products{
+    width: 70%;
+    margin: auto;
+}
+.card-title,.card-text{
+    color: black;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+
+.row-width{
+    width: 100%  !important;
+
+}
+.card{
+    border: 0;
+}
+
+.photo-text{
+    display: flex;
+    width: 100%;
+    height: 100%
+}
+
+.text{
+    background-color: #f5f0ff;
+    width: 50%;
+    padding-top:5% ;
+    padding-left: 5%;
+    
+}
+.text h4,h1{
+   color: #524570
+}
+
+
+.img{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    background-color: #f5f0ff;
+}
+
+.img img{
+    width:281px;
+    height: 490px;
+}
+
+
+.photo-text2{
+    display: flex;
+    width: 100%;
+    background-color: #524570;
+}
+.text2{
+    width: 40%;
+}
+
+.img2{
+    width: 60%;
+}
+.text2{
+    background-color: #524570;
+    width: 50%;
+    padding-top:5% ;
+    padding-left: 5%;
+}
+.text2 h4,h1{
+    color: #ffff;
+}
+
+.img2 img{
+    padding-top: 100px;
+     width: 80%;
+    height: 400px;
+}
+
+.back{
+    background-color: #524570;
+
+}
+
+.photocolumn-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-col{
+    background-color: #3b4582;
+    width: 100%;
+    height: 250px;
+
+}
+.text-col p{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    padding-left: 3%;
+    padding-top: 4%;
+}
+.text-col h3{
+    padding-left: 5%;
+    padding-top: 3%;
+}
+.img-col{
+    background-color: aqua;
+}
+
+.img-col img{
+    width: 100%;
+    border-radius: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
